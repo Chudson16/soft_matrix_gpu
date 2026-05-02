@@ -1,0 +1,5 @@
+/target
+Cargo.lock
+*.wav
+*.flac
+*.tmp_encode.wav

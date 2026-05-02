@@ -1,0 +1,20 @@
+[package]
+name = "soft_matrix_gpu"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "soft_matrix_gpu"
+
+[dependencies]
+# GPU pipeline
+cudarc = { version = "0.19", features = ["cufft", "nvrtc", "cuda-12090"] }
+
+# Input decoding — handles WAV, FLAC, MP3, AAC, OGG, AIFF, Opus, and more
+symphonia = { version = "0.5", features = ["all-codecs", "all-formats"] }
+
+# WAV output (keep for writing the temp WAV before FLAC encoding too)
+hound = "3.5"
+
+# CLI
+clap = { version = "4", features = ["derive"] }
