@@ -1,3 +1,7 @@
+## AI Disclosure
+
+This project was created almost entirely using generative AI. I have had success using this project to upmix stereo audio to 5.1 surround and have been able to verify that the outputs sound good (at least to me). While I have found it suitable for my needs, your mileage may vary. Take everything following this note with a grain of salt. I have only verified the functionality of this project on NixOS with an NVIDIA GTX Titan XP.
+
 # soft_matrix_gpu
 
 A GPU-accelerated stereo to 5.1 surround upmixer for Linux, written in Rust.
