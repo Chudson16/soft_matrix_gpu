@@ -5,7 +5,7 @@
 
 if [ $# -ne 2 ]; then
     echo "Usage: $0 <source_dir> <output_dir>"
-    echo "Example: $0 /mnt/NASmedia/Music/Album /mnt/NASmedia/Upmixed/Album"
+    echo "Example: $0 /mnt/Music/Album /mnt/Upmixed/Album"
     exit 1
 fi
 
